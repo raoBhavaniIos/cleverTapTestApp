@@ -1,0 +1,16 @@
+PODS:
+  - DogImageLibrary (0.0.3)
+
+DEPENDENCIES:
+  - DogImageLibrary
+
+SPEC REPOS:
+  trunk:
+    - DogImageLibrary
+
+SPEC CHECKSUMS:
+  DogImageLibrary: 2824d6d5e84f5a1819c0a86286045a4c211c572e
+
+PODFILE CHECKSUM: aa1ab1eafc8cd7bff8125cec3db9e51e8a211e90
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6FE73FB70B5758849745402F0C2077BA /* DogImageLibrary */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BA82B8005D5B111CBC29C4059F6B7FEB /* Build configuration list for PBXAggregateTarget "DogImageLibrary" */;
+			buildPhases = (
+				5CFED9C7EDE2785F847D47D958E95332 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = DogImageLibrary;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0C35678E65C225269FA6E127A73377EB /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DF95EEE5C42C4D8A3C2D2701654E0B /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-dummy.m */; };
+		5D03F71B4FD45EDE41FA8F176FE2A9A9 /* Pods-CleverTapSDKTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1918C07ACF7282F80A69FE0F0CFDE1 /* Pods-CleverTapSDKTestTests-dummy.m */; };
+		67B6F5D2693BEA6AAA148BFF6FFC0244 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		783D69991247C07727188C4712C2810B /* Pods-CleverTapSDKTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 777A3E86B9864F79664ED02A9A79B185 /* Pods-CleverTapSDKTest-dummy.m */; };
+		880594A7BC3D75025C5BCDA7D2E37806 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9F7EAF6A0A713ABDF0E352232668615D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C52F1D21AC63B8196962283FFC5F8BB0 /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6544D9818C1ADC491103DAE25D4F9D /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAF32E807F94B384289C1826AE216318 /* Pods-CleverTapSDKTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EBF1FA9818ACAC5078D1DE1703075EB /* Pods-CleverTapSDKTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8374755E28AD41BFD584F255DD5D430 /* Pods-CleverTapSDKTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF79DE22580FE1B33F3520FEB41B7E1C /* Pods-CleverTapSDKTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B14A2DDCFA7A6C0ADF8F90A1DB1BD09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE73FB70B5758849745402F0C2077BA;
+			remoteInfo = DogImageLibrary;
+		};
+		C7DB4D3DEE454CF73CBA74475082B833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE73FB70B5758849745402F0C2077BA;
+			remoteInfo = DogImageLibrary;
+		};
+		E37E6112E3C8D04BA7F939A59FD11ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82C946CD0569BD72FD12F6F50191E647;
+			remoteInfo = "Pods-CleverTapSDKTest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B799E823B94D152A237B77CEC66979E /* Pods-CleverTapSDKTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CleverTapSDKTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13CB0103791B699DE85804A59615CE0D /* Pods-CleverTapSDKTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleverTapSDKTest.release.xcconfig"; sourceTree = "<group>"; };
+		195D02B95C7DE99DED0E3B479F360C8A /* Pods-CleverTapSDKTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CleverTapSDKTestTests.modulemap"; sourceTree = "<group>"; };
+		1EBF1FA9818ACAC5078D1DE1703075EB /* Pods-CleverTapSDKTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CleverTapSDKTest-umbrella.h"; sourceTree = "<group>"; };
+		25107D2E147CBB0CA23B46AEC7FC1225 /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleverTapSDKTest-CleverTapSDKTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		340528B0E8EA1BAC7D56030E15C0F740 /* Pods-CleverTapSDKTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleverTapSDKTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		44536C2C3E83C325D1F868BA1B5DAFCB /* Pods-CleverTapSDKTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CleverTapSDKTest.modulemap"; sourceTree = "<group>"; };
+		48998C3B3E72CC1A096BA0B98A9F04AD /* Pods-CleverTapSDKTestTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CleverTapSDKTestTests"; path = Pods_CleverTapSDKTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1918C07ACF7282F80A69FE0F0CFDE1 /* Pods-CleverTapSDKTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CleverTapSDKTestTests-dummy.m"; sourceTree = "<group>"; };
+		65DF95EEE5C42C4D8A3C2D2701654E0B /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CleverTapSDKTest-CleverTapSDKTestUITests-dummy.m"; sourceTree = "<group>"; };
+		694DB91E5168A3BF73045C78AB257604 /* DogImageLibrary.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = DogImageLibrary.xcframework; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74FA1973ACFF287AE501F317691F3C2C /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CleverTapSDKTest-CleverTapSDKTestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		75B9C002A3960B9A70C98AB21B299622 /* DogImageLibrary-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "DogImageLibrary-xcframeworks.sh"; sourceTree = "<group>"; };
+		777A3E86B9864F79664ED02A9A79B185 /* Pods-CleverTapSDKTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CleverTapSDKTest-dummy.m"; sourceTree = "<group>"; };
+		7D1060028B132427264B95A314DA17BC /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleverTapSDKTest-CleverTapSDKTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8645AB290AC0B205D699543DDA091E41 /* DogImageLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DogImageLibrary.release.xcconfig; sourceTree = "<group>"; };
+		94F87373D66A3C5A0A1E3D49D4B95C05 /* Pods-CleverTapSDKTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleverTapSDKTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		959992A270219E68986E30843518ADCE /* DogImageLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DogImageLibrary.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A03F307A24B0514EFEC50CA13C0F3B4B /* Pods-CleverTapSDKTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CleverTapSDKTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A57A02C6E9CEDDDC0B2332CB6B26388C /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleverTapSDKTest-CleverTapSDKTestUITests-Info.plist"; sourceTree = "<group>"; };
+		AA97B68C45A4F395575952DB3CB610B9 /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CleverTapSDKTest-CleverTapSDKTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD613B6008ECDDE8118BDCD96BD2B91E /* Pods-CleverTapSDKTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CleverTapSDKTest-frameworks.sh"; sourceTree = "<group>"; };
+		B02B1EACE9970B6C3B433EE5FCCEE6C2 /* Pods-CleverTapSDKTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleverTapSDKTest-Info.plist"; sourceTree = "<group>"; };
+		B18E17DB6CB83FC6B4AFD40BD5E93255 /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleverTapSDKTest-CleverTapSDKTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B712D43C83C7402FC36ABEE4983A729F /* Pods-CleverTapSDKTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CleverTapSDKTest"; path = Pods_CleverTapSDKTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1CF0155DBD15C41AADEE966D4C84FB /* Pods-CleverTapSDKTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleverTapSDKTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6AA2F8E1CB960D5AD962F32D11D5834 /* Pods-CleverTapSDKTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleverTapSDKTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		DCBF77229B9DC5B9F44894A762F392A8 /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CleverTapSDKTest-CleverTapSDKTestUITests.modulemap"; sourceTree = "<group>"; };
+		E97D74433443F2C11066D0B3F5EF13DD /* Pods-CleverTapSDKTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleverTapSDKTest.debug.xcconfig"; sourceTree = "<group>"; };
+		EA2217A14152DACC35C0E838578717DA /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CleverTapSDKTest-CleverTapSDKTestUITests"; path = Pods_CleverTapSDKTest_CleverTapSDKTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6312B0B4F0120892C5137FD43A625D /* Pods-CleverTapSDKTestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleverTapSDKTestTests-Info.plist"; sourceTree = "<group>"; };
+		FE6544D9818C1ADC491103DAE25D4F9D /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CleverTapSDKTest-CleverTapSDKTestUITests-umbrella.h"; sourceTree = "<group>"; };
+		FF79DE22580FE1B33F3520FEB41B7E1C /* Pods-CleverTapSDKTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CleverTapSDKTestTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		977643CCA058A6381BB908F6FC1D5C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7EAF6A0A713ABDF0E352232668615D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B97824BF2BFE9887B4338803AB7B594F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880594A7BC3D75025C5BCDA7D2E37806 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8D2F7A76CAE9046C625192D33DC491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B6F5D2693BEA6AAA148BFF6FFC0244 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39E3FB99B44894AE2E82A24B97E61553 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED4D913B3283F8DF5185D1DE227166AE /* Pods-CleverTapSDKTest */,
+				4B8146E05417335AAACA92120CC82831 /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests */,
+				F2BD2F99D314CC02E07B114324184DEA /* Pods-CleverTapSDKTestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3EF3628FCF88135FCD600DB1FE920825 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				694DB91E5168A3BF73045C78AB257604 /* DogImageLibrary.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B8146E05417335AAACA92120CC82831 /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCBF77229B9DC5B9F44894A762F392A8 /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests.modulemap */,
+				AA97B68C45A4F395575952DB3CB610B9 /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-acknowledgements.markdown */,
+				7D1060028B132427264B95A314DA17BC /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-acknowledgements.plist */,
+				65DF95EEE5C42C4D8A3C2D2701654E0B /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-dummy.m */,
+				74FA1973ACFF287AE501F317691F3C2C /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-frameworks.sh */,
+				A57A02C6E9CEDDDC0B2332CB6B26388C /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-Info.plist */,
+				FE6544D9818C1ADC491103DAE25D4F9D /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-umbrella.h */,
+				25107D2E147CBB0CA23B46AEC7FC1225 /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests.debug.xcconfig */,
+				B18E17DB6CB83FC6B4AFD40BD5E93255 /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests.release.xcconfig */,
+			);
+			name = "Pods-CleverTapSDKTest-CleverTapSDKTestUITests";
+			path = "Target Support Files/Pods-CleverTapSDKTest-CleverTapSDKTestUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7EC5A5B88A9C5E0BB24E78BA60257DD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D430B52756951953E282389AA8410993 /* DogImageLibrary */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7EC5A5B88A9C5E0BB24E78BA60257DD3 /* Pods */,
+				E048923D8187900136984D2B6F65D35F /* Products */,
+				39E3FB99B44894AE2E82A24B97E61553 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D430B52756951953E282389AA8410993 /* DogImageLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				3EF3628FCF88135FCD600DB1FE920825 /* Frameworks */,
+				F3B265E40AC0AA57A15F8BF4E9B7EB26 /* Support Files */,
+			);
+			name = DogImageLibrary;
+			path = DogImageLibrary;
+			sourceTree = "<group>";
+		};
+		E048923D8187900136984D2B6F65D35F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B712D43C83C7402FC36ABEE4983A729F /* Pods-CleverTapSDKTest */,
+				EA2217A14152DACC35C0E838578717DA /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests */,
+				48998C3B3E72CC1A096BA0B98A9F04AD /* Pods-CleverTapSDKTestTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED4D913B3283F8DF5185D1DE227166AE /* Pods-CleverTapSDKTest */ = {
+			isa = PBXGroup;
+			children = (
+				44536C2C3E83C325D1F868BA1B5DAFCB /* Pods-CleverTapSDKTest.modulemap */,
+				A03F307A24B0514EFEC50CA13C0F3B4B /* Pods-CleverTapSDKTest-acknowledgements.markdown */,
+				340528B0E8EA1BAC7D56030E15C0F740 /* Pods-CleverTapSDKTest-acknowledgements.plist */,
+				777A3E86B9864F79664ED02A9A79B185 /* Pods-CleverTapSDKTest-dummy.m */,
+				AD613B6008ECDDE8118BDCD96BD2B91E /* Pods-CleverTapSDKTest-frameworks.sh */,
+				B02B1EACE9970B6C3B433EE5FCCEE6C2 /* Pods-CleverTapSDKTest-Info.plist */,
+				1EBF1FA9818ACAC5078D1DE1703075EB /* Pods-CleverTapSDKTest-umbrella.h */,
+				E97D74433443F2C11066D0B3F5EF13DD /* Pods-CleverTapSDKTest.debug.xcconfig */,
+				13CB0103791B699DE85804A59615CE0D /* Pods-CleverTapSDKTest.release.xcconfig */,
+			);
+			name = "Pods-CleverTapSDKTest";
+			path = "Target Support Files/Pods-CleverTapSDKTest";
+			sourceTree = "<group>";
+		};
+		F2BD2F99D314CC02E07B114324184DEA /* Pods-CleverTapSDKTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				195D02B95C7DE99DED0E3B479F360C8A /* Pods-CleverTapSDKTestTests.modulemap */,
+				0B799E823B94D152A237B77CEC66979E /* Pods-CleverTapSDKTestTests-acknowledgements.markdown */,
+				CE1CF0155DBD15C41AADEE966D4C84FB /* Pods-CleverTapSDKTestTests-acknowledgements.plist */,
+				5D1918C07ACF7282F80A69FE0F0CFDE1 /* Pods-CleverTapSDKTestTests-dummy.m */,
+				FC6312B0B4F0120892C5137FD43A625D /* Pods-CleverTapSDKTestTests-Info.plist */,
+				FF79DE22580FE1B33F3520FEB41B7E1C /* Pods-CleverTapSDKTestTests-umbrella.h */,
+				94F87373D66A3C5A0A1E3D49D4B95C05 /* Pods-CleverTapSDKTestTests.debug.xcconfig */,
+				D6AA2F8E1CB960D5AD962F32D11D5834 /* Pods-CleverTapSDKTestTests.release.xcconfig */,
+			);
+			name = "Pods-CleverTapSDKTestTests";
+			path = "Target Support Files/Pods-CleverTapSDKTestTests";
+			sourceTree = "<group>";
+		};
+		F3B265E40AC0AA57A15F8BF4E9B7EB26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75B9C002A3960B9A70C98AB21B299622 /* DogImageLibrary-xcframeworks.sh */,
+				959992A270219E68986E30843518ADCE /* DogImageLibrary.debug.xcconfig */,
+				8645AB290AC0B205D699543DDA091E41 /* DogImageLibrary.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DogImageLibrary";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26781F816B119AACEFCEFF056F8FE07A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8374755E28AD41BFD584F255DD5D430 /* Pods-CleverTapSDKTestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8090A5F405BE9687161EFA7884C738CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52F1D21AC63B8196962283FFC5F8BB0 /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6D58149A9A61C1F95961CDBB3D70F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF32E807F94B384289C1826AE216318 /* Pods-CleverTapSDKTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		82C946CD0569BD72FD12F6F50191E647 /* Pods-CleverTapSDKTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51F16400F9426874BAF47791CCFFF4E0 /* Build configuration list for PBXNativeTarget "Pods-CleverTapSDKTest" */;
+			buildPhases = (
+				FD6D58149A9A61C1F95961CDBB3D70F2 /* Headers */,
+				71824ECCE05ED7FFF74966DE4FBA14D8 /* Sources */,
+				BD8D2F7A76CAE9046C625192D33DC491 /* Frameworks */,
+				4B54F7F980AFEB4C402F2CE575FC61E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61FF46E6DF1B71E65D293C0464E7CD5 /* PBXTargetDependency */,
+			);
+			name = "Pods-CleverTapSDKTest";
+			productName = Pods_CleverTapSDKTest;
+			productReference = B712D43C83C7402FC36ABEE4983A729F /* Pods-CleverTapSDKTest */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7D9C7DE9CD60DC29D6974727F0FD6D4 /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6167F48B0FD22532B536514453A85938 /* Build configuration list for PBXNativeTarget "Pods-CleverTapSDKTest-CleverTapSDKTestUITests" */;
+			buildPhases = (
+				8090A5F405BE9687161EFA7884C738CD /* Headers */,
+				EBDB39D9CF09D832B7F11091FF79FD03 /* Sources */,
+				B97824BF2BFE9887B4338803AB7B594F /* Frameworks */,
+				DA349F63AFBE93D0DECAF7F6A912CE0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF84D5F7469A91B43F7116B8BB4D6256 /* PBXTargetDependency */,
+			);
+			name = "Pods-CleverTapSDKTest-CleverTapSDKTestUITests";
+			productName = Pods_CleverTapSDKTest_CleverTapSDKTestUITests;
+			productReference = EA2217A14152DACC35C0E838578717DA /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFADD84D985F48EEC100F2D1008B56C8 /* Pods-CleverTapSDKTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41753FE6F1D89EC7D12FAA225A4E10CA /* Build configuration list for PBXNativeTarget "Pods-CleverTapSDKTestTests" */;
+			buildPhases = (
+				26781F816B119AACEFCEFF056F8FE07A /* Headers */,
+				AC1F18CC626AAEF6AA0DCC1F61BCDA42 /* Sources */,
+				977643CCA058A6381BB908F6FC1D5C4B /* Frameworks */,
+				61B5ADDD88C6DFE631FE9B973C70E95C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CF5B319427099378FB7D3FCBE098EC5 /* PBXTargetDependency */,
+			);
+			name = "Pods-CleverTapSDKTestTests";
+			productName = Pods_CleverTapSDKTestTests;
+			productReference = 48998C3B3E72CC1A096BA0B98A9F04AD /* Pods-CleverTapSDKTestTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E048923D8187900136984D2B6F65D35F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FE73FB70B5758849745402F0C2077BA /* DogImageLibrary */,
+				82C946CD0569BD72FD12F6F50191E647 /* Pods-CleverTapSDKTest */,
+				C7D9C7DE9CD60DC29D6974727F0FD6D4 /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests */,
+				EFADD84D985F48EEC100F2D1008B56C8 /* Pods-CleverTapSDKTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B54F7F980AFEB4C402F2CE575FC61E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B5ADDD88C6DFE631FE9B973C70E95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA349F63AFBE93D0DECAF7F6A912CE0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CFED9C7EDE2785F847D47D958E95332 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/DogImageLibrary/DogImageLibrary-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/DogImageLibrary/DogImageLibrary-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/DogImageLibrary/DogImageLibrary-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71824ECCE05ED7FFF74966DE4FBA14D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783D69991247C07727188C4712C2810B /* Pods-CleverTapSDKTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1F18CC626AAEF6AA0DCC1F61BCDA42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D03F71B4FD45EDE41FA8F176FE2A9A9 /* Pods-CleverTapSDKTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDB39D9CF09D832B7F11091FF79FD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C35678E65C225269FA6E127A73377EB /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CF5B319427099378FB7D3FCBE098EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CleverTapSDKTest";
+			target = 82C946CD0569BD72FD12F6F50191E647 /* Pods-CleverTapSDKTest */;
+			targetProxy = E37E6112E3C8D04BA7F939A59FD11ED1 /* PBXContainerItemProxy */;
+		};
+		C61FF46E6DF1B71E65D293C0464E7CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DogImageLibrary;
+			target = 6FE73FB70B5758849745402F0C2077BA /* DogImageLibrary */;
+			targetProxy = C7DB4D3DEE454CF73CBA74475082B833 /* PBXContainerItemProxy */;
+		};
+		CF84D5F7469A91B43F7116B8BB4D6256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DogImageLibrary;
+			target = 6FE73FB70B5758849745402F0C2077BA /* DogImageLibrary */;
+			targetProxy = 9B14A2DDCFA7A6C0ADF8F90A1DB1BD09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		079BF1CF77F209D3FB7936D1277CCD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13CB0103791B699DE85804A59615CE0D /* Pods-CleverTapSDKTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleverTapSDKTest/Pods-CleverTapSDKTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleverTapSDKTest/Pods-CleverTapSDKTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		133FBA04B5453B4DCBFD2B73BB4F3938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97D74433443F2C11066D0B3F5EF13DD /* Pods-CleverTapSDKTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleverTapSDKTest/Pods-CleverTapSDKTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleverTapSDKTest/Pods-CleverTapSDKTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A1C24EEC73E0F804335EF1A2B79A631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959992A270219E68986E30843518ADCE /* DogImageLibrary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		228AB1C4A03189A164EA245C473398EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8645AB290AC0B205D699543DDA091E41 /* DogImageLibrary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D4964124C484D743BC881F7AD893FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F87373D66A3C5A0A1E3D49D4B95C05 /* Pods-CleverTapSDKTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleverTapSDKTestTests/Pods-CleverTapSDKTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleverTapSDKTestTests/Pods-CleverTapSDKTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F4225877C794ABEB78776F47754104E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		79263FE3F3BBB8320242B109E590B4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18E17DB6CB83FC6B4AFD40BD5E93255 /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleverTapSDKTest-CleverTapSDKTestUITests/Pods-CleverTapSDKTest-CleverTapSDKTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleverTapSDKTest-CleverTapSDKTestUITests/Pods-CleverTapSDKTest-CleverTapSDKTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82A82E7B01BBDFAF2F878B14C052B5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6AA2F8E1CB960D5AD962F32D11D5834 /* Pods-CleverTapSDKTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleverTapSDKTestTests/Pods-CleverTapSDKTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleverTapSDKTestTests/Pods-CleverTapSDKTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE01F7166EEACACAB356205432BC3A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25107D2E147CBB0CA23B46AEC7FC1225 /* Pods-CleverTapSDKTest-CleverTapSDKTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleverTapSDKTest-CleverTapSDKTestUITests/Pods-CleverTapSDKTest-CleverTapSDKTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleverTapSDKTest-CleverTapSDKTestUITests/Pods-CleverTapSDKTest-CleverTapSDKTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41753FE6F1D89EC7D12FAA225A4E10CA /* Build configuration list for PBXNativeTarget "Pods-CleverTapSDKTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4964124C484D743BC881F7AD893FD6 /* Debug */,
+				82A82E7B01BBDFAF2F878B14C052B5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */,
+				6F4225877C794ABEB78776F47754104E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51F16400F9426874BAF47791CCFFF4E0 /* Build configuration list for PBXNativeTarget "Pods-CleverTapSDKTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133FBA04B5453B4DCBFD2B73BB4F3938 /* Debug */,
+				079BF1CF77F209D3FB7936D1277CCD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6167F48B0FD22532B536514453A85938 /* Build configuration list for PBXNativeTarget "Pods-CleverTapSDKTest-CleverTapSDKTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE01F7166EEACACAB356205432BC3A3F /* Debug */,
+				79263FE3F3BBB8320242B109E590B4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA82B8005D5B111CBC29C4059F6B7FEB /* Build configuration list for PBXAggregateTarget "DogImageLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1C24EEC73E0F804335EF1A2B79A631 /* Debug */,
+				228AB1C4A03189A164EA245C473398EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
