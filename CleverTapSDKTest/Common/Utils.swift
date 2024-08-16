@@ -23,7 +23,7 @@ class Utils{
         viewController.present(alert, animated: true, completion: nil)
     }
     func hideLoadingPopup(on viewController:UIViewController){
-            viewController.dismiss(animated: true, completion: nil)
+        viewController.dismiss(animated: true, completion: nil)
     }
     func showErrorPopup(on viewController:UIViewController, message: String) {
         let alert = UIAlertController(title: "Error", message: message, preferredStyle: .alert)

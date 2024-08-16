@@ -9,15 +9,20 @@ import UIKit
 import DogImageLibrary
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var prevBtn: UIButton!
     @IBOutlet weak var imageView: UIImageView!
     var imageFatch: DogImageFetcher = DogImageFetcher()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         imageFatch.delegate = self
         self.prevBtn.isEnabled = false
+        getinitialImage()
+    }
+    
+    fileprivate func getinitialImage() {
         imageFatch.getImage {[weak self] image in
             if let image{
                 DispatchQueue.main.async {
@@ -25,13 +30,12 @@ class ViewController: UIViewController {
                 }
             }
         }
-        // Do any additional setup after loading the view.
     }
-
+    
     @IBAction func prevBtnAction(_ sender: Any) {
-       let tuple = imageFatch.getPreviousImage()
+        let tuple = imageFatch.getPreviousImage()
         DispatchQueue.main.async {
-        if let image = tuple.image {
+            if let image = tuple.image {
                 self.imageView.image = image
             }
             self.prevBtn.isEnabled = tuple.isEnable
@@ -39,12 +43,12 @@ class ViewController: UIViewController {
     }
     @IBAction func nextBtnAction(_ sender: Any) {
         imageFatch.getNextImage {[weak self] image in
-                DispatchQueue.main.async {
-                    self?.imageView.image = image
-                    if !(self?.prevBtn.isEnabled ?? false) {
-                        self?.prevBtn.isEnabled = true
-                    }
+            DispatchQueue.main.async {
+                self?.imageView.image = image
+                if !(self?.prevBtn.isEnabled ?? false) {
+                    self?.prevBtn.isEnabled = true
                 }
+            }
             
         }
     }
