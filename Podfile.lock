@@ -1,5 +1,5 @@
 PODS:
-  - DogImageLibrary (0.0.3)
+  - DogImageLibrary (0.0.4)
 
 DEPENDENCIES:
   - DogImageLibrary
@@ -9,7 +9,7 @@ SPEC REPOS:
     - DogImageLibrary
 
 SPEC CHECKSUMS:
-  DogImageLibrary: 2824d6d5e84f5a1819c0a86286045a4c211c572e
+  DogImageLibrary: 274d48bda788d774f06e3805b8154f3bbea07b4f
 
 PODFILE CHECKSUM: aa1ab1eafc8cd7bff8125cec3db9e51e8a211e90
 

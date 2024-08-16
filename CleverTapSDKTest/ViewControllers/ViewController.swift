@@ -56,7 +56,6 @@ class ViewController: UIViewController {
         if let num = Int(textField.text ?? ""), 0 < num , num < 11 {
             imageFatch.getImage(number: num) {  images in
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.2, execute: {
-                    print(images?.count ?? 0)
                     if let images,let vc = self.storyboard?.instantiateViewController(identifier: "MoreImagesTableViewController")  as? MoreImagesTableViewController{
                         vc.images = images
                         self.navigationController?.pushViewController(vc, animated: true)
